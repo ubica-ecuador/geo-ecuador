@@ -33,6 +33,12 @@ Recuerda consultar la [documentación de TerriaJS](https://docs.terria.io/guide/
 
 ¡Gracias por tu colaboración y feliz mapeo!
 
+### Qué es TerriaJS?
+
+TerriaJS es una biblioteca para crear exploradores de datos geoespaciales ricos basados en la web. Utiliza Cesium y WebGL para obtener un globo 3D completo en el navegador sin complementos. Vuelve elegantemente a 2D con Leaflet en sistemas que no pueden ejecutar Cesium. Puede manejar catálogos de decenas de miles de capas, con soporte para docenas de tipos de archivos geoespaciales y servicios web. Es casi en su totalidad JavaScript en el navegador, lo que significa que incluso se puede implementar como un sitio web estático, lo que hace que su alojamiento sea sencillo y económico.
+
+[Repositorio TerriaJS](https://github.com/TerriaJS/terriajs)
+
 ### Colaboradores
 
 - [Javer Andrés García - UBICA Ecuador](https://github.com/javandres)

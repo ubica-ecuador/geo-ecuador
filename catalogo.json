@@ -1,0 +1,762 @@
+{
+    "homeCamera": {
+      "north": 5.99,
+      "east": -70.83,
+      "south": -9.19,
+      "west": -93.16
+    },
+    "catalog": [
+      {
+        "name": "Gobiernos Autónomos Descentralizados",
+        "type": "group",
+        "members": [
+          {
+            "name": "Azuay",
+            "type": "group",
+            "members": [
+              {
+                "name": "Gad Provincial Azuay",
+                "url": "https://geoportal.azuay.gob.ec/geoserver/ows?SERVICE=WMS&",
+                "type": "wms-group"
+              },
+              {
+                "name": "Cuenca",
+                "url": "https://ide.cuenca.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+              },
+              {
+                "name": "Santa Isabel",
+                "url": "https://santaisabel.saga.ec/geoportal/servicios/modulos/catastro_rural/ficha_predial/pdf/mapa.php?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+              }
+            ]
+          },
+          {
+            "name": "Bolivar - (sin datos)",
+            "type": "group",
+            "members": []
+          },
+          {
+            "name": "Cañar - (sin datos)",
+            "type": "group",
+            "members": []
+          },
+          {
+            "name": "Carchi - (sin datos)",
+            "type": "group",
+            "members": []
+          },
+          {
+            "name": "Chimborazo - (sin datos)",
+            "type": "group",
+            "members": []
+          },
+          {
+            "name": "Cotopaxi - (sin datos)",
+            "type": "group",
+            "members": []
+          },
+          {
+            "name": "El Oro",
+            "type": "group",
+            "members": [
+              {
+                "name": "Gad Provincial El Oro",
+                "url": "http://sil.eloro.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+              }
+            ]
+          },
+          {
+            "name": "Esmeraldas - (sin datos)",
+            "type": "group",
+            "members": []
+          },
+          {
+            "name": "Guayas - (sin datos)",
+            "type": "group",
+            "members": []
+          },
+          {
+            "name": "Imbabura",
+            "type": "group",
+            "members": [
+              {
+                "name": "Gad Provincial Imbabura",
+                "url": "https://mapasonline.imbabura.gob.ec/servergis/rest/services",
+                "type": "esri-group"
+              }
+            ]
+          },
+          {
+            "name": "Loja - (sin datos)",
+            "type": "group",
+            "members": []
+          },
+          {
+            "name": "Los Ríos - (sin datos)",
+            "type": "group",
+            "members": []
+          },
+          {
+            "name": "Manabí",
+            "type": "group",
+            "members": [
+              {
+                "name": "Gad Provincial de Manabí",
+                "url": "http://geovisor.manabi.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+              }
+            ]
+          },
+          {
+            "name": "Morona Santiago - (sin datos)",
+            "type": "group",
+            "members": []
+          },
+          {
+            "name": "Napo",
+            "type": "group",
+            "members": [
+              {
+                "name": "Gad Provincial de Napo",
+                "url": "https://ide.napo.gob.ec/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+              }
+              
+            ]
+          },
+          {
+            "name": "Sucumbios - (sin datos)",
+            "type": "group",
+            "members": []
+          },
+          {
+            "name": "Pastaza",
+            "type": "group",
+            "members": [
+              {
+                "name": "Gad Provincial Pastaza",
+                "url": "https://services9.arcgis.com/NOt9aRRQgcL53dXa/ArcGIS/rest/services",
+                "type": "esri-group"
+              }
+            ]
+          },
+  
+          {
+            "name": "Pichincha",
+            "type": "group",
+            "members": [
+              {
+                "name": "Gad Provincial Pichincha",
+                "url": "http://sitp.pichincha.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+              },
+              {
+                "name": "Distrito Metropolitano de Quito",
+                "url": "https://geomdmq.quito.gob.ec:8443/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+              }
+            ]
+          },
+          {
+            "name": "Santa Elena - (sin datos)",
+            "type": "group",
+            "members": []
+          },
+          {
+            "name": "Santo Domingo",
+            "type": "group",
+            "members": [
+              {
+                "name": "Gad Provincial de Santo Domingo",
+                "url": "http://186.47.96.18:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+                
+              }
+            ]
+          },
+          {
+            "name": "Orellana - (sin datos)",
+            "type": "group",
+            "members": []
+          },
+          {
+            "name": "Tungurahua",
+            "type": "group",
+            "members": [
+              {
+                "name": "Áreas de Conservación y Producción - TUNGURAHUA",
+                "url": "https://mapas.tungurahua.gob.ec/geoservicios/pmp/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities",
+                "type": "wms",
+                "layers": "pmp:areas_conservacion_produccion"
+              },
+              {
+                "name": "Estado de Salud Páramo - TUNGURAHUA",
+                "url": "https://mapas.tungurahua.gob.ec/geoservicios/pmp/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms",
+                "layers": "pmp:cocap_unopuch_uocisar_estado_salud_paramo"
+              },
+              {
+                "name": "Zona de Pinos - TUNGURAHUA",
+                "url": "https://mapas.tungurahua.gob.ec/geoservicios/pmp/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms",
+                "layers": "ppmp:cocap_unopuch_uocisar_pinos"
+              },
+              {
+                "name": "Tipo de Páramo - TUNGURAHUA",
+                "url": "https://mapas.tungurahua.gob.ec/geoservicios/pmp/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms",
+                "layers": "pmp:cocap_unopuch_uocisar_tipo_paramo"
+              },
+              {
+                "name": "Planes de Manejo de Páramos - TUNGURAHUA",
+                "url": "https://mapas.tungurahua.gob.ec/geoservicios/pmp/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms",
+                "layers": "pmp:planes_manejo_paramo"
+              },
+              {
+                "name": "Límites Planes de Manejo de Páramos - TUNGURAHUA",
+                "url": "https://mapas.tungurahua.gob.ec/geoservicios/pmp/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms",
+                "layers": "pmp:planes_manejo_paramo_limites"
+              },
+              {
+                "name": "Áreas protegidas - TUNGURAHUA",
+                "url": "https://mapas.tungurahua.gob.ec/geoservicios/pmp/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms",
+                "layers": "paramos:areas_protegidas"
+              },
+              {
+                "name": "Ambato - GAD Municipal",
+                "url": "https://services9.arcgis.com/KATPZHwySt7LDkzQ/ArcGIS/rest/services",
+                "type": "esri-group"
+              }
+            ]
+          },
+          {
+            "name": "Zamora Chinchipe - (sin datos)",
+            "type": "group",
+            "members": []
+          }
+        ]
+      },
+      {
+        "name": "Instituciones Ecuador",
+        "type": "group",
+        "isOpen": true,
+        "members": [
+          {
+            "type": "wms-group",
+            "name": "Agencia de Regulación y Control del Agua - ARCA",
+            "url": "http://www.geoarca.gob.ec:8080/geoserver/ows?",
+            "dataCustodian": "[Agencia de Regulación y Control del Agua - ARCA](https://www.regulacionagua.gob.ec/)"
+          },
+          {
+            "url": "https://geovisore.controlrecursosyenergia.gob.ec/arcgis/rest/services",
+            "type": "esri-group",
+            "dataCustodian": "[Agencia de Regulación y Control de Energía y Recursos Naturales no Renovables – ARCERNNR.](https://www.controlrecursosyenergia.gob.ec/)",
+            "name": "Agencia de Regulación y Control de Energía y Recursos Naturales no Renovables – ARCERNNR."
+          },
+          {
+            "type": "group",
+            "name": "Empresa Eléctrica Regional Centro Sur",
+            "members": [
+              {
+                "name": "Área de Concesión",
+                "url": "https://geoservicios2.centrosur.gob.ec/geoservicios/rest/services/Cartografia/AreaConcesion/MapServer",
+                "type": "esri-mapServer",
+                "dataCustodian": "[Centro Sur Servicios](https://geoservicios2.centrosur.gob.ec/geoservicios/rest/services/)"
+              },
+              {
+                "name": "Consignaciones",
+                "url": "https://geoservicios2.centrosur.gob.ec/geoservicios/rest/services/Geoportal_Comercial/ConsigAreas_hoy_manana/MapServer",
+                "type": "esri-mapServer",
+                "dataCustodian": "[Centro Sur Servicios](https://geoservicios2.centrosur.gob.ec/geoservicios/rest/services/)"
+              },
+              {
+                "name": "Red público",
+                "url": "https://geoservicios2.centrosur.gob.ec/geoservicios/rest/services/Geoportal_Publico/GeopPublic_RedesDist_rsgis1/MapServer",
+                "type": "esri-mapServer",
+                "dataCustodian": "[Centro Sur Servicios](https://geoservicios2.centrosur.gob.ec/geoservicios/rest/services/)"
+              }
+            ]
+          },
+          {
+            "name": "Instituto Geográfico Militar del Ecuador",
+            "type": "group",
+            "dataCustodian": "[Instituto Geográfico Militar del Ecuador - IGM ](https://www.geograficomilitar.gob.ec/)",
+            "members": [
+              {
+                "name": "Ortofotos",
+                "type": "group",
+                "members": [
+                  {
+                    "name": "IGM - Ortofotos",
+                    "type": "wms-group",
+                    "url": "https://www.geoportaligm.gob.ec/orto/igm/wms?"
+                  },
+                  {
+                    "name": "IGM - Ortofotos UAV",
+                    "type": "wms-group",
+                    "url": "https://www.geoportaligm.gob.ec/orto/uav_igm/wms?"
+                  },
+                  {
+                    "name": "Ortofotos UAV Ecuador",
+                    "type": "wms-group",
+                    "url": "https://www.geoportaligm.gob.ec/orto/uav_ecu/wms?"
+                  },
+                  {
+                    "name": "Ortofotos UAV Universidad de Cuenca",
+                    "type": "wms-group",
+                    "url": "https://www.geoportaligm.gob.ec/orto/uav_ucuenca/wms?"
+                  }
+                ]
+              },
+              {
+                "name": "IGM - Modelo digital del Terreno ",
+                "type": "wms-group",
+                "url": "https://www.geoportaligm.gob.ec/dtm/wms?"
+              },
+              {
+                "name": "IGM - Cartografía temática",
+                "type": "group",
+                "members": [
+                  {
+                    "name": "Información Nacional",
+                    "url": "http://www.geoportaligm.gob.ec/nacional/ows",
+                    "type": "wms-group"
+                  },
+                  {
+                    "name": "Información Regional",
+                    "url": "http://www.geoportaligm.gob.ec/regional/wms",
+                    "type": "wms-group"
+                  },
+                  {
+                    "name": "Fenómeno del Niño",
+                    "type": "wms-group",
+                    "url": "https://www.geoportaligm.gob.ec/tematica/fenomeno_nino/wms?"
+                  },
+                  {
+                    "name": "Volcán Cotopaxi",
+                    "type": "wms-group",
+                    "url": "https://www.geoportaligm.gob.ec/tematica/cotopaxi/wms?"
+                  },
+                  {
+                    "name": "Atlas Geográfico Ambiental",
+                    "type": "wms-group",
+                    "url": "https://www.geoportaligm.gob.ec/tematica/atlas_ambiental/wms?"
+                  },
+                  {
+                    "name": "Atlas Geográfico Rural",
+                    "type": "wms-group",
+                    "url": "https://www.geoportaligm.gob.ec/tematica/atlas_rural/wms?"
+                  },
+                  {
+                    "name": "Atlas Geográfico Turismo",
+                    "type": "wms-group",
+                    "url": "https://www.geoportaligm.gob.ec/tematica/atlas_turismo/wms?"
+                  },
+                  {
+                    "name": "Atlas Geográfico - Objetivos de Desarrollo Sostebible (ODS)",
+                    "type": "wms-group",
+                    "url": "https://www.geoportaligm.gob.ec/tematica/atlas_ods/wms?"
+                  },
+                  {
+                    "name": "Atlas Geográfico Riesgos",
+                    "type": "wms-group",
+                    "url": "https://www.geoportaligm.gob.ec/tematica/atlas_riesgos/wms?"
+                  },
+                  {
+                    "name": "Geo Informacion de Capacidad y Uso de la Tierra ",
+                    "type": "wms-group",
+                    "url": "https://www.geoportaligm.gob.ec/p_geoinformacion/ows?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "wms-group",
+            "name": "INEC - Instituto Nacional de Estadísticas y Censos",
+            "url": "https://geoinec.inec.gob.ec/geoinec/ows?",
+            "dataCustodian": "[INEC - Instituto Nacional de Estadísticas y Censos](https://www.ecuadorencifras.gob.ec/)"
+          },
+          {
+            "name": "INAMHI: Instituto Nacional de Meteorología e Hidrología",
+            "url": "http://inamhi.llactatec.com:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+            "type": "wms-group",
+            "dataCustodian": "[INAMHI: Instituto Nacional de Meteorología e Hidrología](https://www.inamhi.gob.ec/)"
+          },
+          {
+            "name": "Instituto de Investigación Geológico y Energético [IIGE]",
+            "url": "https://capas.geoenergia.gob.ec/arcgis/rest/services/IIGE",
+            "type": "esri-group",
+            "dataCustodian": "[Instituto de Investigación Geológico y Energético - IIGE](https://www.geoenergia.gob.ec/)"
+          },
+          {
+            "type": "wms-group",
+            "name": "SIGTIERRAS",
+            "url": "http://geoportal.sigtierras.gob.ec:8080/geoserver/sigtierras/wms",
+            "dataCustodian": "[Sistema Nacional de Información de Tierras - SIGTIERRAS](https://www.sigtierras.gob.ec/)"
+          },
+          {
+            "type": "group",
+            "name": "Ministerio de Agricultura y Ganadería",
+            "dataCustodian": "[Ministerio de Agricultura y Ganadería - MAG](https://www.agricultura.gob.ec/)",
+            "members": [
+              {
+                "name": "[MAG] Cobertura y uso de la tierra",
+                "type": "group",
+                "members": [
+                  {
+                    "name": "Escala 1:25.000",
+                    "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                    "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                    "url": "http://geoportal.agricultura.gob.ec/sigtierras/cobertura_tierra/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                    "type": "wms-group"
+                  },
+                  {
+                    "name": "Escala 1:25.000 Asociación de Objetos",
+                    "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                    "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                    "url": "http://geoportal.agricultura.gob.ec/cobertura/E25k_asociacion_objetos/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                    "type": "wms-group"
+                  },
+                  {
+                    "name": "Escala 1:100.000",
+                    "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                    "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                    "url": "http://geoportal.agricultura.gob.ec/cobertura/E100k/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                    "type": "wms-group"
+                  }
+                ]
+              },
+              {
+                "name": "[MAG]  Estimaciones de Cultivos",
+                "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                "url": "http://geoportal.agricultura.gob.ec/cobertura/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+              },
+              {
+                "name": "[MAG] Suelos",
+                "type": "group",
+                "members": [
+                  {
+                    "name": "Escala 1:25.000",
+                    "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                    "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                    "url": "http://geoportal.agricultura.gob.ec/fisiografia/E25k/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                    "type": "wms-group"
+                  },
+                  {
+                    "name": "Productos ráster - resolución espacial 1km",
+                    "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                    "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                    "url": "http://geoportal.agricultura.gob.ec/tematicas/Rraster/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                    "type": "wms-group"
+                  },
+                  {
+                    "name": "Productos ráster - resolución espacial 30m",
+                    "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                    "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                    "url": "http://geoportal.agricultura.gob.ec/fisiografia/Rraster/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                    "type": "wms-group"
+                  },
+                  {
+                    "name": "Suelos - Geopedologia",
+                    "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                    "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                    "url": "http://geoportal.agricultura.gob.ec/sigtierras/geopedologia/wms",
+                    "type": "wms-group"
+                  }
+                ]
+              },
+              {
+                "name": "[MAG] Zonificaciones Agroecológicas",
+                "type": "group",
+                "members": [
+                  {
+                    "name": "Zonificaciones Agroecológicas Económicas",
+                    "type": "group",
+                    "members": [
+                      {
+                        "name": "Escala 1:25.000",
+                        "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                        "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                        "url": "http://geoportal.agricultura.gob.ec/demarcacion/E25k/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                        "type": "wms-group"
+                      },
+                      {
+                        "name": "Escala 1:250.000",
+                        "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                        "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                        "url": "http://geoportal.agricultura.gob.ec/demarcacion/E250k/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                        "type": "wms-group"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Zonificación de Pastos",
+                    "type": "group",
+                    "members": [
+                      {
+                        "name": "Escala 1:25.000",
+                        "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                        "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                        "url": "http://geoportal.agricultura.gob.ec/demarcacion/zonificacion_pastos/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                        "type": "wms-group"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "[MAG] Registros Administrativos Agropecuarios",
+                "type": "group",
+                "members": [
+                  {
+                    "name": "Registros Administrativos Agropecuarios - Escala 1:5.000",
+                    "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                    "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                    "url": "http://geoportal.agricultura.gob.ec/registros/E5k/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                    "type": "wms-group"
+                  },
+                  {
+                    "name": "Registros Administrativos Agropecuarios - Escala 1:50.000",
+                    "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                    "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                    "url": "http://geoportal.agricultura.gob.ec/registros/E50k/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                    "type": "wms-group"
+                  }
+                ]
+              },
+              {
+                "name": "[MAG] Industrias y servicios del agro ",
+                "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                "url": "http://geoportal.agricultura.gob.ec/infraestructura/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+              },
+              {
+                "name": "[MAG] Irrigación parcelaria",
+                "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                "url": "http://geoportal.agricultura.gob.ec/demarcacion/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+              },
+              {
+                "name": "[MAG]  Geografía Socioeconómica",
+                "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                "url": "http://geoportal.agricultura.gob.ec/tematicas/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+              },
+              {
+                "name": "[MAG]  Programas e Incentivos - 1:5.000",
+                "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                "url": "http://geoportal.agricultura.gob.ec/cobertura/E5k/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+              },
+              {
+                "name": "[MAG] Accesibilidad - 1:25.000",
+                "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                "url": "http://geoportal.agricultura.gob.ec/geosigtierras/accesibilidad/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+              },
+              {
+                "name": "[MAG] Catastro Rural - 1:5.000",
+                "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+                "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+                "url": "http://geoportal.agricultura.gob.ec/sigtierras/catastro_rural/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                "type": "wms-group"
+              }
+            ]
+          },
+          {
+            "name": "Ministerio del Ambiente",
+            "description": "[Licence](http://ide.ambiente.gob.ec)",
+            "dataCustodian": "[Ministerio del Ambiente - MAE](https://www.ambiente.gob.ec)",
+            "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+            "type": "wms-group"
+          },
+          {
+            "name": "Ministerio de Inclusión Económica y Social",
+            "description": "[Licence](http://inclusion.gob.ec)",
+            "dataCustodian": "[MIES](http://inclusion.gob.ec)",
+            "url": "https://geoportal.inclusion.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+            "type": "wms-group"
+          },
+          {
+            "name": "Ministerio de Minería - ARCOM",
+            "dataCustodian": "[Ministerio de Minería - ARCOM](https://www.controlrecursosyenergia.gob.ec/)",
+            "type": "group",
+            "isOpen": false,
+            "members": [
+              {
+                "name": "Catastro Minero",
+                "description": "[Licence](http://geo.controlminero.gob.ec:1026/geo_visor/)",
+                "dataCustodian": "[Agencia de Regulación y Control Minero](http://geo.controlminero.gob.ec:1026/geo_visor/)",
+                "url": "http://181.211.37.231:1028/arcgis/rest/services/Concesiones/CatastroMineroNacional/MapServer",
+                "type": "esri-mapServer-group"
+              },
+              {
+                "name": "Catastro Minero- Tipo Conseción",
+                "description": "[Licence](http://geo.controlminero.gob.ec:1026/geo_visor/)",
+                "dataCustodian": "[Agencia de Regulación y Control Minero](http://geo.controlminero.gob.ec:1026/geo_visor/)",
+                "url": "http://181.211.37.231:1028/arcgis/rest/services/Gads/Concesiones_Produccion/MapServer",
+                "type": "esri-mapServer-group"
+              },
+              {
+                "name": "Catastro Minero- Producción",
+                "description": "[Licence](http://geo.controlminero.gob.ec:1026/geo_visor/)",
+                "dataCustodian": "[Agencia de Regulación y Control Minero](http://geo.controlminero.gob.ec:1026/geo_visor/)",
+                "url": "http://181.211.37.231:1028/arcgis/rest/services/Gads/Concesiones_Produccion/FeatureServer",
+                "type": "esri-featureServer"
+              }
+            ]
+          },
+          {
+            "name": "Ministerio de Desarrollo Urbano y Vivienda [MIDUVI]",
+            "url": "https://services5.arcgis.com/hAkCDThoby0RxA6S/arcgis/rest/services",
+            "type": "esri-group",
+            "dataCustodian": "[Ministerio de Desarrollo Urbano y Vivienda - MIDUVI](https://www.habitatyvivienda.gob.ec/)"
+          },
+          {
+            "type": "group",
+            "name": "Ministerio de Transporte Obras Públicas – MTOP",
+            "dataCustodian": "[Ministerio de Transporte Obras Públicas – MTOP](https://www.obraspublicas.gob.ec/)",
+            "members": [
+              {
+                "name": "Estado vial",
+                "url": "https://geoportal.mtop.gob.ec/arcgis/rest/services/Cartografia_de_Red_Vial_Estatal_MTOP/FeatureServer/0",
+                "type": "esri-featureServer",
+                "dataCustodian": "[MTOP](https://www.mtop.gob.ec)"
+              },
+              {
+                "name": "Estado vial histórico",
+                "url": "https://geoportal.mtop.gob.ec/arcgis/rest/services/Historico_estado_2022/FeatureServer/0",
+                "type": "esri-featureServer",
+                "dataCustodian": "[MTOP](https://www.mtop.gob.ec)"
+              },
+              {
+                "name": "Peajes",
+                "url": "https://geoportal.mtop.gob.ec/arcgis/rest/services/PEAJES/FeatureServer/0",
+                "type": "esri-featureServer",
+                "dataCustodian": "[MTOP](https://www.mtop.gob.ec)"
+              },
+              {
+                "name": "Puertos",
+                "url": "https://geoportal.mtop.gob.ec/arcgis/rest/services/Puertos/FeatureServer/0",
+                "type": "esri-featureServer",
+                "dataCustodian": "[MTOP](https://www.mtop.gob.ec)"
+              },
+              {
+                "name": "Aeropuertos",
+                "url": "https://geoportal.mtop.gob.ec/arcgis/rest/services/Aeropuertos/FeatureServer/0",
+                "type": "esri-featureServer",
+                "dataCustodian": "[MTOP](https://www.mtop.gob.ec)"
+              }
+            ]
+          },
+          {
+            "name": "Ministerio de Turismo [MINTUR]",
+            "description": "[Licence](https://www.turismo.gob.ec/)",
+            "dataCustodian": "[MINTUR](https://www.turismo.gob.ec/)",
+            "url": "https://geoatractivos.turismo.gob.ec:8443/geoserver/ows?service=WFS&acceptversions=2.0.0&request=GetCapabilities",
+            "type": "wfs-group"
+          },
+          {
+            "url": "https://srvportal.gestionderiesgos.gob.ec/server/rest/services",
+            "type": "esri-group",
+            "dataCustodian": "[SNGR](https://.gestionderiesgos.gob.ec)",
+            "name": "Sistema Nacional de Gestión de Riesgos"
+          },
+          {
+            "type": "group",
+            "name": "Universidades",
+            "members": [
+              {
+                "type": "wms-group",
+                "name": "Universidad del Azuay",
+                "url": "https://ierse.uazuay.edu.ec/geoserver20/ows",
+                "description": "Información geográfica de la Universidad del Azuay",
+                "dataCustodian": "[IERSE](http://ierse.uazuay.edu.ec/)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Otros Servcios",
+        "type": "group",
+        "isOpen": true,
+        "members": [
+          {
+            "name": "Red Amazónica de Información Socioambiental Georreferenciada [RAISG]",
+            "url": "https://geo2.socioambiental.org/raisg/rest/services/raisg",
+            "type": "esri-group",
+            "dataCustodian": "[RAISG](https://www.raisg.org/)"
+          },
+          {
+            "id": "congope",
+            "name": "Sentinel-2",
+            "type": "group",
+            "members": [
+              {
+                "id": "5z6OTFssaW",
+                "name": "CSIRO Soil and Landscape Grid",
+                "url": "https://www.asris.csiro.au/arcgis/rest/services/TERN",
+                "type": "esri-group"
+              },
+              {
+                "id": "lIvVnuKJA9",
+                "name": "Sentinel-2 cloudless world 2016",
+                "type": "wmts",
+                "url": "https://a.s2maps-tiles.eu/wmts/",
+                "layer": "s2cloudless_3857",
+                "style": "default",
+                "opacity": 1
+              },
+              {
+                "id": "jCJmccfll6",
+                "name": "Sentinel-2 cloudless world 2018",
+                "type": "wmts",
+                "url": "https://a.s2maps-tiles.eu/wmts/",
+                "layer": "s2cloudless-2018_3857",
+                "style": "default",
+                "opacity": 1
+              },
+              {
+                "id": "HrWLyyyo6V",
+                "name": "Sentinel-2 cloudless world 2019",
+                "type": "wmts",
+                "url": "https://a.s2maps-tiles.eu/wmts/",
+                "layer": "s2cloudless-2019_3857",
+                "style": "default",
+                "opacity": 1
+              },
+              {
+                "id": "B8gpm2I3gB",
+                "name": "Sentinel-2 cloudless world 2020",
+                "type": "wmts",
+                "url": "https://a.s2maps-tiles.eu/wmts/",
+                "layer": "s2cloudless-2020_3857",
+                "style": "default",
+                "opacity": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "viewerMode": "3dSmooth",
+    "baseMaps": {
+      "defaultBaseMapId": "basemap-positron",
+      "previewBaseMapId": "basemap-positron"
+    }
+  }
+  

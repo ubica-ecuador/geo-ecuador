@@ -33,3 +33,8 @@ Recuerda consultar la [documentación de TerriaJS](https://docs.terria.io/guide/
 
 ¡Gracias por tu colaboración y feliz mapeo!
 
+### Colaboradores
+
+- [Javer Andrés García - UBICA Ecuador](https://github.com/javandres)
+- [Consorcio de Gobiernos Provinciales - CONGOPE](http://www.congope.gob.ec/)
+- [WWF - Ecuador](https://www.wwf.org.ec/)

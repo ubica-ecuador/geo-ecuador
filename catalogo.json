@@ -703,6 +703,11 @@
         "isOpen": true,
         "members": [
           {
+            "name": "Fundación Charles Darwin - Galápagos",
+            "type": "esri-group",
+            "url": "https://services7.arcgis.com/2ksqa1c9apvRj2wc/ArcGIS/rest/services",
+          },
+          {
             "name": "Red Amazónica de Información Socioambiental Georreferenciada [RAISG]",
             "url": "https://geo2.socioambiental.org/raisg/rest/services/raisg",
             "type": "esri-group",
@@ -756,9 +761,15 @@
                 "opacity": 1
               }
             ]
+          },
+          {
+            "name": "Global Forest Watch",
+            "type": "wms-group",
+            "url": "https://datacore.unepgrid.ch/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities"
           }
         ]
       }
+
     ],
     "viewerMode": "3dSmooth",
     "baseMaps": {
